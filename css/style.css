@@ -38,7 +38,7 @@ p {
 }
 
 main {
-  font-family: Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   display: flex;
