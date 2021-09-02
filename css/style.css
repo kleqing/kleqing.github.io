@@ -4,14 +4,10 @@
   box-sizing: border-box;
 }
 
-#borderimg{
-  border-image-source: url(./img/avatar.jpg);
-}
-
 h1 {
   color: #426696;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2rem;
   opacity: 0.8;
 }
 h2 {
@@ -25,6 +21,13 @@ h3 {
   color: #426696;
   font-weight: 600;
   opacity: 0.8;
+}
+
+h4 {
+  color: #658ec6;
+  font-weight: 300;
+  opacity: 0.8;
+  font-size: 120%;
 }
 
 p {
@@ -60,28 +63,7 @@ a {
   backdrop-filter: blur(2rem);
   display: flex;
 }
-.circle1,
-.circle2 {
-  background: white;
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.8),
-    rgba(255, 255, 255, 0.3)
-  );
-  height: 20rem;
-  width: 20rem;
-  position: absolute;
-  border-radius: 50%;
-}
 
-.circle1 {
-  top: 5%;
-  right: 15%;
-}
-.circle2 {
-  bottom: 5%;
-  left: 10%;
-}
 .dashboard {
   flex: 1;
   display: flex;
@@ -96,15 +78,35 @@ a {
   );
   border-radius: 2rem;
 }
-.link {
-  display: flex;
-  margin: 2rem 0rem;
-  padding: 1rem 5rem;
-  align-items: center;
+
+.circle1,
+.circle2 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  height: 9rem;
+  width: 9rem;
+  position: absolute;
+  border-radius: 50%;
 }
-.link h2 {
-  padding: 0rem 2rem;
-  font-size: 100%;
+
+.circle1 {
+  top: 5%;
+  right: 15%;
+}
+.circle2 {
+  bottom: 5%;
+  left: 10%;
+}
+.link {
+  display: table-cell;
+  margin: 2rem 1rem;
+  width: 10%;
+  padding-bottom: 15px;
+  align-items: center;
 }
 
 .info {
@@ -128,30 +130,12 @@ img {
   100px;
 }
 
+.downimg {
+  position: relative;
+  top: 5px;
+}
+
 /* Info */
-.status {
-  margin-bottom: 3rem;
-}
-
-.status input {
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
-  border: none;
-  width: 75%;
-  padding: 0.5rem;
-  border-radius: 2rem;
-}
-
-.info {
-  margin: 5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
 .card {
   display: flex;
   background: linear-gradient(
@@ -180,7 +164,7 @@ img {
   height: 100%;
   background: rgb(236, 236, 236);
   position: absolute;
-  left: 1000%;
+  left: 100%;
 }
 .card-info {
   display: flex;
