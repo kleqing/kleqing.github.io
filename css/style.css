@@ -46,13 +46,21 @@ main {
   justify-content: center;
 }
 
+#watermark { 
+  position: center;
+  border: 8px solid transparent;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+}
+
 a {
   text-decoration: none;
 }
 .glass {
   background: white;
   min-height: 80vh;
-  width: 60%;
+  width: 80%;
   background: linear-gradient(
     to right bottom,
     rgba(255, 255, 255, 0.7),
@@ -96,11 +104,11 @@ a {
 
 .circle1 {
   top: 5%;
-  right: 15%;
+  right: 5%;
 }
 .circle2 {
   bottom: 5%;
-  left: 10%;
+  left: 5%;
 }
 .link {
   display: table-cell;
