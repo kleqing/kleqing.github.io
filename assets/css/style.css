@@ -526,7 +526,7 @@ section.my-work .section-heading {
 }
 
 .lazyloading {
-    background: #f7f7f7 url(//afarkas.github.io/lazysizes/assets/imgs/loader.gif) no-repeat center;
+    background: #f7f7f7 url(//https://kleqing.github.io/assets/images/loader.gif) no-repeat center;
     min-height: 60px;
 }
 
