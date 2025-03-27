@@ -296,13 +296,31 @@
     const themeToggle = document.getElementById("theme-toggle");
     const body = document.body;
 
-    if (localStorage.getItem("theme") === "dark") {
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    let theme = localStorage.getItem("theme");
+
+    if (!theme) {
+        theme = prefersDark ? "dark" : "light";
+        localStorage.setItem("theme", theme);
+    }
+
+    if (theme === "dark") {
         body.classList.add("dark-background");
         themeToggle.classList.replace("bi-moon-stars", "bi-brightness-high");
     } else {
         body.classList.add("light-background");
         themeToggle.classList.replace("bi-brightness-high", "bi-moon-stars");
     }
+
+    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+        if (!localStorage.getItem("theme")) {
+            let newTheme = e.matches ? "dark" : "light";
+            body.classList.toggle("dark-background", newTheme === "dark");
+            body.classList.toggle("light-background", newTheme === "light");
+            themeToggle.classList.replace(newTheme === "dark" ? "bi-moon-stars" : "bi-brightness-high", 
+                                          newTheme === "dark" ? "bi-brightness-high" : "bi-moon-stars");
+        }
+    });
 
     themeToggle.addEventListener("click", function () {
         if (body.classList.contains("dark-background")) {
@@ -315,9 +333,9 @@
             body.classList.add("dark-background");
             localStorage.setItem("theme", "dark");
             themeToggle.classList.replace("bi-moon-stars", "bi-brightness-high");
-            
         }
     });
   });
+  
 
 })();
