@@ -294,13 +294,7 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     const themeToggle = document.getElementById("theme-toggle");
-    const logo = document.getElementById("dynamic-logo");
     const body = document.body;
-
-    function updateLogo() {
-      const isDarkMode = document.body.classList.contains("dark-background");
-      logo.src = isDarkMode ? logo.getAttribute("data-src-dark") : logo.getAttribute("data-src-light");
-    }
 
     if (localStorage.getItem("theme") === "dark") {
         body.classList.add("dark-background");
@@ -309,8 +303,6 @@
         body.classList.add("light-background");
         themeToggle.classList.replace("bi-brightness-high", "bi-moon-stars");
     }
-
-    updateLogo();
 
     themeToggle.addEventListener("click", function () {
         if (body.classList.contains("dark-background")) {
@@ -325,7 +317,6 @@
             themeToggle.classList.replace("bi-moon-stars", "bi-brightness-high");
             
         }
-      updateLogo();
     });
   });
 
