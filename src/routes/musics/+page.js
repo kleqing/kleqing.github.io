@@ -1,23 +1,16 @@
+import { getPosts } from '$lib/js/posts.js';
+
 export async function load() {
-	const imports = import.meta.glob('/src/content/images/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp}', {
-		import: 'default',
-		eager: true,
-		query: {
-			enhanced: true,
-			w: '2000;1200;800'
-		}
-	});
-
-	const entries = Object.entries(imports);
-	entries.reverse();
-
-	const images = entries.map(([path, module]) => module);
+	const modules = import.meta.glob('/src/content/musics/artists/*/*.md');
+	let posts = await getPosts(modules);
+	// keep ordering (reverse to show newest first)
+	posts = posts.reverse();
 
 	return {
-		images,
+		artists: posts,
 		meta: {
 			title: 'musics',
-			description: 'just some random photos.'
+			description: 'list of artists.'
 		}
 	};
 }
