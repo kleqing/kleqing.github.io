@@ -1,0 +1,15 @@
+﻿---
+published: true
+name: always on top
+description: a simple tool to keep windows always on top
+thumbnail: aot.png
+images: [aot.png]
+github: https://github.com/kleqing/Always-on-top
+date: 2023-01-06
+---
+
+A simple script build from AHK that allow pin any application on top. Support for most windows version.
+
+Just press ctrl + space to toggle always on top for the active window.
+
+To restore the original behavior, just press ctrl + space again.
