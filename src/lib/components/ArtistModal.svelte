@@ -1,7 +1,11 @@
 ﻿<script>
 	import { createEventDispatcher, onMount } from 'svelte';
 	import Image from '$lib/components/Image.svelte';
+	import { fade, scale } from 'svelte/transition';
+	import {quintOut} from "svelte/easing";
+
 	let { artist, open } = $props();
+
 	const dispatch = createEventDispatcher();
 
 	function close() {
@@ -25,8 +29,8 @@
 </script>
 
 {#if open && artist}
-	<div class="backdrop" onclick={(e) => { if (e.target === e.currentTarget) close(); }} aria-hidden={!open}>
-		<div class="modal" role="dialog" aria-modal="true" aria-labelledby="artist-title" tabindex="0">
+	<div class="backdrop" in:fade={{ duration: 150 }} out:fade={{ duration: 120 }} onclick={(e) => { if (e.target === e.currentTarget) close(); }} aria-hidden={!open}>
+		<div class="modal" role="dialog" aria-modal="true" aria-labelledby="artist-title" tabindex="0" in:scale={{ start: 0.92, duration: 220, easing: quintOut }} out:scale={{ start: 1, end: 0.96, duration: 150 }}>
 			<button class="close" onclick={close} aria-label="Close">×</button>
 			<div class="content">
 				<div class="left">
@@ -71,7 +75,7 @@
 		width: 100%;
 		max-width: 900px;
 		min-height: 30vh;
-		max-height: 60vh;
+		max-height: 200vh;
 		border-radius: 10px;
 		padding: 1rem;
 		position: relative;
@@ -129,5 +133,28 @@
 	h3 {
 		font-family: "Space Grotesk Variable", sans-serif;
 		margin-top: 1.5rem;
+	}
+
+	/*Hide scroll bar */
+
+	/* Chrome, Edge, Safari */
+	.content::-webkit-scrollbar {
+		display: none;
+	}
+
+	/* Firefox */
+	.content {
+		scrollbar-width: none;
+	}
+
+	/* iOS smooth scroll */
+	.content {
+		-webkit-overflow-scrolling: touch;
+	}
+
+	#artist-title {
+		font-family: "Space Grotesk Variable", sans-serif;
+		font-size: 1.2rem;
+		font-weight: 100;
 	}
 </style>
