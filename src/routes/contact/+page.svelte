@@ -1,12 +1,12 @@
 <script>
-	import DiscordIcon from '~icons/ph/discord-logo';
 	import EmailIcon from '~icons/ph/envelope';
 	import CopyIcon from '~icons/ph/copy';
 	import CheckIcon from '~icons/ph/check';
+	import FacebookIcon from '~icons/ph/facebook-logo';
 
 	let status = $state('submit ->');
 	let emailCopied = $state(false);
-	let discordCopied = $state(false);
+	let facebookCopied = $state(false);
 
 	const handleSubmit = async (data) => {
 		data.preventDefault();
@@ -14,7 +14,7 @@
 		status = 'submitting...';
 		const formData = new FormData(data.currentTarget);
 		const object = Object.fromEntries(formData);
-		object.access_key = 'e2076be5-0774-40df-b59a-4faead3fa269';
+		object.access_key = '';
 		const json = JSON.stringify(object);
 
 		const response = await fetch('https://api.web3forms.com/submit', {
@@ -33,25 +33,39 @@
 	};
 
 	const copyEmail = async () => {
-		await navigator.clipboard.writeText('refact0r.contact@gmail.com');
+		await navigator.clipboard.writeText('nhanpk28122004@gmail.com');
 		emailCopied = true;
 		setTimeout(() => (emailCopied = false), 1000);
 	};
 
-	const copyDiscord = async () => {
-		await navigator.clipboard.writeText('refact0r');
-		discordCopied = true;
-		setTimeout(() => (discordCopied = false), 1000);
+	const copyFacebook = async () => {
+		await navigator.clipboard.writeText('https://www.facebook.com/kleqing/');
+		facebookCopied = true;
+		setTimeout(() => (facebookCopied = false), 1000);
 	};
+
 </script>
 
 <main>
 	<h1>contact</h1>
 	<p>ways to get in touch.</p>
 	<div class="info">
+		<FacebookIcon />facebook <span class="sub">-></span>
+		<a href="https://www.facebook.com/kleqing/" class="external"
+		>Phạm Khánh Nhân<span class="arrow">/></span>
+		</a>
+		<button class="copy-btn" onclick={copyFacebook} aria-label="Copy Facebook link">
+			{#if facebookCopied}
+				<CheckIcon />
+			{:else}
+				<CopyIcon />
+			{/if}
+		</button>
+	</div>
+	<div class="info">
 		<EmailIcon />email <span class="sub">-></span>
-		<a href="mailto:refact0r.contact@gmail.com" class="external"
-			>refact0r.contact@gmail.com<span class="arrow">/></span>
+		<a href="mailto:nhanpk28122004@gmail.com" class="external"
+			>nhanpk28122004@gmail.com<span class="arrow">/></span>
 		</a>
 		<button class="copy-btn" onclick={copyEmail} aria-label="Copy email">
 			{#if emailCopied}
@@ -61,21 +75,9 @@
 			{/if}
 		</button>
 	</div>
-	<div class="info">
-		<DiscordIcon />discord <span class="sub">-></span>
-		<a href="https://discord.com/users/508863359777505290" class="external"
-			>refact0r<span class="arrow">/></span>
-		</a>
-		<button class="copy-btn" onclick={copyDiscord} aria-label="Copy Discord username">
-			{#if discordCopied}
-				<CheckIcon />
-			{:else}
-				<CopyIcon />
-			{/if}
-		</button>
-	</div>
+
 	<br />
-	<br />
+
 	<h3>contact form</h3>
 	<form onsubmit={handleSubmit}>
 		<input type="text" name="name" placeholder="name" required />
