@@ -1,0 +1,35 @@
+﻿---
+title: "HoYo-MiX"
+year: 2011 - present
+image: "hoyomix.jpg"
+description: "HOYO-MiX is a musical group and music studio under miHoYo, primarily responsible for producing songs and soundtracks for various miHoYo games, including the Honkai series, Tears of Themis, and Genshin Impact. The studio is headed by Cai Jinhan, miHoYo's music director."
+tracks:
+  - title: "Proi Proi"
+    youtube: "https://www.youtube.com/watch?v=W-7vL1Nuj8U"
+  - title: "Hope Is the Thing With Feathers"
+    youtube: "https://www.youtube.com/watch?v=aPyt41nnM0k"
+  - title: "Sway to My Beat in Cosmos"
+    youtube: "https://www.youtube.com/watch?v=npyiiInMA0w"
+  - title: "WHITE NIGHT"
+    youtube: "https://www.youtube.com/watch?v=TursZNv5dA8"
+  - title: "TruE"
+    youtube: "https://www.youtube.com/watch?v=k-K28-A4fBc"
+  - title: "Moon Halo"
+    youtube: "https://www.youtube.com/watch?v=4wFFT_usvzY"
+  - title: "Nightglow"
+    youtube: "https://www.youtube.com/watch?v=9eBEix_Ltrw"
+  - title: "Oracle"
+    youtube: "https://www.youtube.com/watch?v=BCc8u61PTLo"
+  - title: "Houkai Sekai no Utahime (Honkai World Diva)"
+    youtube: "https://www.youtube.com/watch?v=empP5jaUozI"
+  - title: "Regression"
+    youtube: "https://www.youtube.com/watch?v=mGN2MBOY4jU"
+  - title: "Wildfire"
+    youtube: "https://www.youtube.com/watch?v=SxlW79tDhCA"
+  - title: "Nameless Faces"
+    youtube: "https://www.youtube.com/watch?v=6KBhZCKZ-R4"
+  - title: "No Dazzle, No Break"
+    youtube: "https://www.youtube.com/watch?v=WbhL7DHSJ1A"
+published: true
+---
+
