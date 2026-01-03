@@ -9,8 +9,8 @@
 		projects<span class="count" aria-label="{data.posts.length} projects"
 			>[{data.posts.length}]</span
 		>
-		<div class="info"><span class="sub" style="font-size: 1.3rem">these are some projects that i working with. note that some of them was forked or contributed by me.</span></div>
 	</h1>
+	<p class="sub">these are some projects that i working with. note that some of them was forked or contributed by me</p>
 
 	<div class="posts">
 		{#each data.posts as post}

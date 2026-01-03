@@ -29,8 +29,8 @@
 <main>
 	<div class="header">
 		<h1>games<span class="count" aria-label="{data.posts.length} posts">[{data.posts.length}]</span>
-			<div class="info"><span class="sub" style="font-size: 1.3rem">these are some games that i played most since 2021</span></div>
 		</h1>
+		<p class="sub">these are some games that i played most since 2021</p>
 
 	</div>
 
@@ -69,10 +69,7 @@
 	}
 
 	.header {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		margin-bottom: 1rem;
+		margin-bottom: 0rem;
 	}
 
 	.gallery {
