@@ -19,7 +19,7 @@
 
 <main>
 	<h1>musics<span class="count" aria-label="{data.artists.length} artists">[{data.artists.length}]</span></h1>
-	<p>artists. click an icon to view details.</p>
+	<p class="sub">my favourite artists/bands</p>
 	<br />
 	<div class="grid">
 		{#each data.artists as artist}
@@ -32,7 +32,9 @@
 
 <style>
 	main {
-		padding: 0 4rem 4rem 4rem;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 4rem 4rem;
 	}
 
 	.count {
@@ -44,6 +46,7 @@
 		grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
 		gap: 1rem;
 		align-items: start;
+		touch-action: pan-y;
 	}
 
 	@media (max-width: 850px) {
