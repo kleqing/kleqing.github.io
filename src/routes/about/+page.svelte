@@ -25,14 +25,14 @@
 <main>
 	<h1>about</h1>
 	<p>
-		hey there! i'm nhan, a se student at fpt university da nang, vn. i also know as kleqing ingame. i'm interested in web development, game development, and more. i love to explore new technologies and improve my skills.
+		hi there! i'm nhan, a se student at fpt university da nang, vn. i also know as kleqing ingame. i'm interested in web development, game development, and more. i love to explore new technologies and improve my skills.
 	</p>
 	<h2>links</h2>
 	<div class="links">
 		<a href="https://github.com/kleqing" class="external icon">
 			<GithubIcon /><span class="text">github</span><span class="arrow">/></span>
 		</a>
-		<a href="https://x.com/kleqing24k" class="external icon">
+		<a href="https://x.com/kleqingosu" class="external icon">
 			<XIcon /><span class="text">X</span><span class="arrow">/></span>
 		</a>
 		<a href="https://discord.com/users/847029283180511283" class="external icon">
@@ -130,36 +130,36 @@
 		font-family: 'Space Mono', monospace;
 	}
 
-	.webring {
-		display: inline-block;
-		margin: 0;
-		span {
-			display: inline-block;
-			transition: 0.2s;
-		}
-		&.home:hover {
-			text-decoration: underline 2px;
-		}
-		&.next:hover span {
-			transform: translateX(0.3em);
-		}
-		&.previous:hover span {
-			transform: translateX(-0.3em);
-		}
-	}
+	/*.webring {*/
+	/*	display: inline-block;*/
+	/*	margin: 0;*/
+	/*	span {*/
+	/*		display: inline-block;*/
+	/*		transition: 0.2s;*/
+	/*	}*/
+	/*	&.home:hover {*/
+	/*		text-decoration: underline 2px;*/
+	/*	}*/
+	/*	&.next:hover span {*/
+	/*		transform: translateX(0.3em);*/
+	/*	}*/
+	/*	&.previous:hover span {*/
+	/*		transform: translateX(-0.3em);*/
+	/*	}*/
+	/*}*/
 
-	.card {
-		margin: 0;
-		display: inline;
-		width: 88px;
-		height: 31px;
+	/*.card {*/
+	/*	margin: 0;*/
+	/*	display: inline;*/
+	/*	width: 88px;*/
+	/*	height: 31px;*/
 
-		img {
-			image-rendering: pixelated;
-			width: 88px;
-			height: 31px;
-		}
-	}
+	/*	img {*/
+	/*		image-rendering: pixelated;*/
+	/*		width: 88px;*/
+	/*		height: 31px;*/
+	/*	}*/
+	/*}*/
 
 	.colors {
 		display: inline-flex;

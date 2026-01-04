@@ -10,7 +10,7 @@
 			>[{data.posts.length}]</span
 		>
 	</h1>
-	<p class="sub">these are some projects that i working with. note that some of them was forked or contributed by me</p>
+	<p class="sub">some projects i'm working on. most of them were forked or contributed to by me</p>
 
 	<div class="posts">
 		{#each data.posts as post}

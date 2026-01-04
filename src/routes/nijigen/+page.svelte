@@ -40,7 +40,7 @@
 	<div class="header">
 		<h1>nijigen<span class="count" aria-label="{data.posts.length} posts">[{data.posts.length}]</span>
 		</h1>
-		<p class="sub">anime / manga / light novel that i’ve watched or read</p>
+		<p class="sub">a small list of my manga/anime/LN</p>
 
 	</div>
 

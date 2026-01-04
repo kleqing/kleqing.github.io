@@ -19,7 +19,7 @@
 
 <main>
 	<h1>musics<span class="count" aria-label="{data.artists.length} artists">[{data.artists.length}]</span></h1>
-	<p class="sub">my favourite artists/bands</p>
+	<p class="sub">some of my favourite artists/bands</p>
 	<br />
 	<div class="grid">
 		{#each data.artists as artist}
