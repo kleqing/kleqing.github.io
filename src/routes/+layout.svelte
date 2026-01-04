@@ -16,6 +16,7 @@
 		{ name: 'projects', path: '/projects' },
 		{ name: 'games', path: '/games' },
 		{ name: 'musics', path: '/musics' },
+		{ name: 'nijigen', path: '/nijigen' },
 		{ name: 'contact', path: '/contact' }
 	];
 
@@ -80,7 +81,7 @@
 	image={page.data.meta.image}
 />
 
-<header class:home={page.url.pathname === '/'} data-sveltekit-noscroll>
+<header class:home={page.url.pathname === '/'}>
 	<div class="row">
 		<a class="pfp" href="/" aria-label="homepage"><Logo --width="2rem" --height="2rem" /></a>
 		<a href="/"><h1>kleqing</h1></a>
@@ -93,7 +94,7 @@
 		{/each}
 	</nav>
 </header>
-<div class="container" data-sveltekit-noscroll>
+<div class="container">
 	{#key page.url.pathname}
 		<div
 			class="transition"
@@ -149,19 +150,15 @@
 	}
 
 	.container {
-		height: 100%;
+		min-height: calc(100dvh - 5rem);
 		display: grid;
 	}
 
 	.transition {
-		grid-column-start: 1;
-		grid-column-end: 2;
-		grid-row-start: 1;
-		grid-row-end: 2;
-		min-width: 0;
+		width: 100%;
 	}
 
-	@media (max-width: 850px) {
+	@media (max-width: 1200px) {
 		header {
 			padding: 0 1.5rem;
 			gap: 1.5rem;
@@ -172,7 +169,7 @@
 		}
 	}
 
-	@media (max-width: 700px) {
+	@media (max-width: 900px) {
 		header nav {
 			display: none;
 		}
