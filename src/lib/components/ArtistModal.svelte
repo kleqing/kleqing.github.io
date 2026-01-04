@@ -91,16 +91,6 @@
 		cursor: default;
 	}
 
-	.close {
-		position: absolute;
-		top: 8px;
-		right: 8px;
-		background: transparent;
-		border: none;
-		font-size: 1.5rem;
-		cursor: pointer;
-	}
-
 	.content { display: flex; gap: 1rem; overflow-y: auto; }
 
 	.left {

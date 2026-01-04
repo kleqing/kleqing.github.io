@@ -4,22 +4,30 @@
 
 	let { data } = $props();
 
-	const { default: Content, metadata } = data.post;
-	const Icon = iconMap[metadata.icon] ?? iconMap.code;
+	const Content = $derived.by(() => data.post.default);
+	const metadata = $derived.by(() => data.post.metadata);
+
+	const Icon = $derived.by(() =>
+			metadata?.icon ? iconMap[metadata.icon] : iconMap.code
+	);
+
+	const hasIcon = $derived.by(() => typeof Icon === 'function');
 </script>
 
 <main>
 	<div class="head-1">
 		<a href="/games" class="back"><span class="arrow">&lt;-</span>games</a>
 	</div>
+
 	<div class="head-2">
 		<div class="row">
 			<h1>
-				{#if Icon}
+				{#if hasIcon}
 					<Icon class="icon" />
 				{/if}
 				{metadata.name}
 			</h1>
+
 			<div class="links">
 				{#if metadata.link}
 					<a class="external" href={metadata.link} target="_blank">
@@ -30,37 +38,63 @@
 		</div>
 	</div>
 
-	<p class="date">game released date: {formatDate(metadata?.date)}</p>
+	<p class="date">
+		game released date: {formatDate(metadata?.date)}
+	</p>
+
 	<p class="userGameId">
 		user id: {metadata.gameId}
-		{#if metadata?.gameUserName}
+		{#if metadata.gameUserName}
 			({metadata.gameUserName})
 		{/if}
 	</p>
 
-	<!-- render the thumbnail image if the loader provided it -->
 	{#if data?.meta?.image}
 		<div class="thumb-wrap">
 			{#if typeof data.meta.image === 'string'}
-				<img class="thumb" src={data.meta.image} alt={metadata?.name} loading="lazy" />
+				<img
+						class="thumb"
+						src={data.meta.image}
+						alt={metadata?.name}
+						loading="lazy"
+				/>
 			{:else if data.meta.image?.img?.src}
 				<picture>
 					{#if data.meta.image?.sources?.avif}
-						<source srcset={data.meta.image.sources.avif} type="image/avif" sizes="(min-width: 1200px) 53rem, 100vw" />
+						<source
+								srcset={data.meta.image.sources.avif}
+								type="image/avif"
+								sizes="(min-width: 1200px) 53rem, 100vw"
+						/>
 					{/if}
 					{#if data.meta.image?.sources?.webp}
-						<source srcset={data.meta.image.sources.webp} type="image/webp" sizes="(min-width: 1200px) 53rem, 100vw" />
+						<source
+								srcset={data.meta.image.sources.webp}
+								type="image/webp"
+								sizes="(min-width: 1200px) 53rem, 100vw"
+						/>
 					{/if}
-					<img class="thumb" src={data.meta.image.img.src} alt={metadata?.name} loading="lazy" width={data.meta.image.img.w} height={data.meta.image.img.h} />
+					<img
+							class="thumb"
+							src={data.meta.image.img.src}
+							alt={metadata?.name}
+							loading="lazy"
+							width={data.meta.image.img.w}
+							height={data.meta.image.img.h}
+					/>
 				</picture>
 			{:else}
-				<!-- fallback: try to render whatever was provided (string/unknown) -->
-				<img class="thumb" src={data.meta.image} alt={metadata?.name} loading="lazy" />
+				<img
+						class="thumb"
+						src={data.meta.image}
+						alt={metadata?.name}
+						loading="lazy"
+				/>
 			{/if}
 		</div>
 	{/if}
-	<p class="description">{metadata?.description}</p>
 
+	<p class="description">{metadata?.description}</p>
 
 	<div class="content">
 		<Content />
