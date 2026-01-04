@@ -35,11 +35,14 @@
 			<a class="nav" href="/projects">
 				<span class="arrow">-></span><span class="slash">/</span>projects
 			</a>
-			<a class="nav" href="/blog">
-				<span class="arrow">-></span><span class="slash">/</span>blog
+			<a class="nav" href="/games">
+				<span class="arrow">-></span><span class="slash">/</span>games
 			</a>
-			<a class="nav" href="/pics">
-				<span class="arrow">-></span><span class="slash">/</span>pics
+			<a class="nav" href="/musics">
+				<span class="arrow">-></span><span class="slash">/</span>musics
+			</a>
+			<a class="nav" href="/nijigen">
+				<span class="arrow">-></span><span class="slash">/</span>nijigen
 			</a>
 			<a class="nav" href="/contact">
 				<span class="arrow">-></span><span class="slash">/</span>contact
