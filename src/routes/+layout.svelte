@@ -3,7 +3,6 @@
 	import '$lib/assets/fonts/space-mono.css';
 	import '$lib/assets/fonts/space-grotesk.css';
 	import { page } from '$app/state';
-	import Logo from '$lib/components/Logo.svelte';
 	import PageHead from '$lib/components/PageHead.svelte';
 	import { fly } from 'svelte/transition';
 	import { prefersReducedMotion } from 'svelte/motion';
@@ -83,7 +82,6 @@
 
 <header class:home={page.url.pathname === '/'}>
 	<div class="row">
-		<a class="pfp" href="/" aria-label="homepage"><Logo --width="2rem" --height="2rem" /></a>
 		<a href="/"><h1>kleqing</h1></a>
 	</div>
 	<nav>
@@ -150,12 +148,16 @@
 	}
 
 	.container {
-		min-height: calc(100dvh - 5rem);
+		height: 100%;
 		display: grid;
 	}
 
 	.transition {
-		width: 100%;
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 2;
+		min-width: 0;
 	}
 
 	@media (max-width: 1200px) {
