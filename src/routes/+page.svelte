@@ -1,33 +1,12 @@
 <script>
-	import pfpin from '$lib/assets/pfpin.json';
-	import { onMount } from 'svelte';
-
-	let lottie;
-
-	onMount(async () => {
-		lottie = await import('lottie-web/build/player/lottie_light.min.js');
-		let node = document.querySelector('.pfpstart');
-		const animation = lottie.loadAnimation({
-			name: 'pfp',
-			container: node,
-			renderer: 'svg',
-			loop: false,
-			autoplay: true,
-			animationData: pfpin
-		});
-		animation.addEventListener('complete', () => {
-			node.classList.add('pfp');
-		});
-	});
 </script>
 
 <main>
 	<div class="container">
 		<div class="row">
-			<h1>refact0r</h1>
-			<div class="pfpstart"></div>
+			<h1>kleqing</h1>
 		</div>
-		<p>hey there! i'm yifan, a cs student interested in ai, web dev, design, and more.</p>
+		<p>hi there! i'm nhan, a se student interested in web dev, gaming, and more.</p>
 		<nav>
 			<a class="nav" href="/about">
 				<span class="arrow">-></span><span class="slash">/</span>about
@@ -65,12 +44,6 @@
 		display: flex;
 		align-items: center;
 		gap: 1.5rem;
-	}
-
-	.pfpstart,
-	.pfp {
-		width: 3.75rem;
-		height: 3.75rem;
 	}
 
 	h1 {
