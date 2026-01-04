@@ -1,37 +1,42 @@
 ﻿<script>
-	import { createEventDispatcher, onMount } from 'svelte';
 	import Image from '$lib/components/Image.svelte';
 	import { fade, scale } from 'svelte/transition';
-	import {quintOut} from "svelte/easing";
+	import { quintOut } from 'svelte/easing';
+	import {createEventDispatcher, onDestroy} from 'svelte';
 
 	let { artist, open } = $props();
 
 	const dispatch = createEventDispatcher();
 
+	$effect(() => {
+		if (open) {
+			document.body.style.overflow = 'hidden';
+		} else {
+			document.body.style.overflow = '';
+		}
+
+		return () => {
+			document.body.style.overflow = '';
+		};
+	});
+
 	function close() {
 		dispatch('close');
 	}
 
-	onMount(() => {
+	$effect(() => {
 		function onKey(e) {
-			if (e.key === 'Escape') close();
+			if (e.key === 'Escape' && open) close();
 		}
+
 		document.addEventListener('keydown', onKey);
 		return () => document.removeEventListener('keydown', onKey);
-	});
-
-	onMount(() => {
-		document.body.style.overflow = 'hidden';
-		return () => {
-			document.body.style.overflow = '';
-		};
 	});
 </script>
 
 {#if open && artist}
 	<div class="backdrop" in:fade={{ duration: 150 }} out:fade={{ duration: 120 }} onclick={(e) => { if (e.target === e.currentTarget) close(); }} aria-hidden={!open}>
 		<div class="modal" role="dialog" aria-modal="true" aria-labelledby="artist-title" tabindex="0" in:scale={{ start: 0.92, duration: 220, easing: quintOut }} out:scale={{ start: 1, end: 0.96, duration: 150 }}>
-			<button class="close" onclick={close} aria-label="Close">×</button>
 			<div class="content">
 				<div class="left">
 					<div class="image-wrap">
@@ -67,6 +72,7 @@
 		justify-content: center;
 		z-index: 50;
 		padding: 1rem;
+		cursor: pointer;
 	}
 
 	.modal {
@@ -82,6 +88,7 @@
 		display: flex;
 		flex-direction: column;
 		overflow: hidden;
+		cursor: default;
 	}
 
 	.close {
