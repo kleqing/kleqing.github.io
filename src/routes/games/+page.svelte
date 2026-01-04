@@ -14,7 +14,7 @@
 	}
 
 	//* Add preview hover effect on touch devices */
-	let activeSlug = null;
+	let activeSlug = $state(null);
 
 	function onTitleClick(e, slug) {
 		if (window.matchMedia('(hover: none)').matches) {
