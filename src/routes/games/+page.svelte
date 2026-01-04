@@ -1,6 +1,5 @@
 <script>
 	import { formatDate } from '$lib/js/utils.js';
-	import RssIcon from '~icons/ph/rss';
 
 	let { data } = $props();
 
@@ -28,9 +27,9 @@
 
 <main>
 	<div class="header">
-		<h1>games<span class="count" aria-label="{data.posts.length} posts">[{data.posts.length}]</span>
+		<h1>games<span class="count" aria-label={`${data.posts.length} posts`}>[{data.posts.length}]</span>
 		</h1>
-		<p class="sub">these are some games that i played most since 2021</p>
+		<p class="sub">some games that i played most since 2021</p>
 
 	</div>
 
@@ -38,7 +37,7 @@
 		{#each data.posts as post}
 			<a
 					class="tile {activeSlug === post.slug ? 'active' : ''}"
-					on:click={(e) => onTitleClick(e, post.slug)}
+					onclick={(e) => onTitleClick(e, post.slug)}
 					href={'/games/' + post.slug}
 					aria-label={post.name}
 			>
@@ -69,7 +68,7 @@
 	}
 
 	.header {
-		margin-bottom: 0rem;
+		margin-bottom: 0;
 	}
 
 	.gallery {
