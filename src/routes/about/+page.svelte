@@ -54,9 +54,6 @@
 	<a href="https://github.com/kleqing/kleqing.github.io" class="external"
 		>github repo<span class="arrow">/></span></a
 	>
-<!--	<a href="https://us.umami.is/share/HwZnyuHQ5Rqz3NWf/refact0r.dev" class="external"-->
-<!--		>analytics<span class="arrow">/></span></a-->
-<!--	>-->
 	<div class="info">
 		stack <span class="sub">-></span> sveltekit <span class="sub">/</span> mdsvex
 		<span class="sub">/</span> vite <span class="sub">/</span> vercel
@@ -81,30 +78,6 @@
 	</div>
 	<h2>credits</h2>
 	<a class="webring home" href="https://refact0r.dev/">origin page</a>
-<!--	<div class="info">-->
-<!--		<a class="card" href="/" rel="nofollow">-->
-<!--			<img src="/88x31.png" alt="refact0r" />-->
-<!--		</a>-->
-<!--		<a class="card" href="https://enochlau.com" rel="nofollow">-->
-<!--			<img src="https://enochlau.com/88x31.webp" alt="tnixc" />-->
-<!--		</a>-->
-<!--		<a class="card" href="https://www.sadan.zip" rel="nofollow">-->
-<!--			<img src="https://www.sadan.zip/assets/88x31.png" alt="sadan" />-->
-<!--		</a>-->
-<!--		<a class="card" href="https://vendicated.dev" rel="nofollow">-->
-<!--			<img src="https://vendicated.dev/_astro/me.D0UvsSv8.gif" alt="ven" />-->
-<!--		</a>-->
-<!--	</div>-->
-<!--	<div class="info">-->
-<!--		<a class="webring previous" href="https://ctp-webr.ing/refact0r/previous">-->
-<!--			<span> &lt;- </span>&nbsp;-->
-<!--		</a><a class="webring home" href="https://refact0r.dev/">origin page</a><a-->
-<!--			class="webring next"-->
-<!--			href="https://ctp-webr.ing/refact0r/next"-->
-<!--		>-->
-<!--			&nbsp;<span> -> </span>-->
-<!--		</a>-->
-<!--	</div>-->
 	<h2>notes</h2>
 	<span class="info">all material of this page all belongs to refact0r. this is just a fork/clone and re-edited to make it become my portfolio. shoutout to yifan (refact0r) for the design!</span>
 </main>
@@ -129,37 +102,6 @@
 		margin: 0.5rem 0;
 		font-family: 'Space Mono', monospace;
 	}
-
-	/*.webring {*/
-	/*	display: inline-block;*/
-	/*	margin: 0;*/
-	/*	span {*/
-	/*		display: inline-block;*/
-	/*		transition: 0.2s;*/
-	/*	}*/
-	/*	&.home:hover {*/
-	/*		text-decoration: underline 2px;*/
-	/*	}*/
-	/*	&.next:hover span {*/
-	/*		transform: translateX(0.3em);*/
-	/*	}*/
-	/*	&.previous:hover span {*/
-	/*		transform: translateX(-0.3em);*/
-	/*	}*/
-	/*}*/
-
-	/*.card {*/
-	/*	margin: 0;*/
-	/*	display: inline;*/
-	/*	width: 88px;*/
-	/*	height: 31px;*/
-
-	/*	img {*/
-	/*		image-rendering: pixelated;*/
-	/*		width: 88px;*/
-	/*		height: 31px;*/
-	/*	}*/
-	/*}*/
 
 	.colors {
 		display: inline-flex;

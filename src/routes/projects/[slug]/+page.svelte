@@ -2,9 +2,15 @@
 	import Image from '$lib/components/Image.svelte';
 	import emblaCarouselSvelte from 'embla-carousel-svelte';
 
-	let { data } = $props();
+	void emblaCarouselSvelte;
 
-	let { default: content, metadata } = data.post;
+	// use runes-compatible props access so values update during client navigation
+	const props = $props();
+
+	// derive post/content/metadata from props in runes mode
+	const post = $derived(props.data?.post);
+	const content = $derived(post ? post.default : undefined);
+	const metadata = $derived(post ? post.metadata : {});
 
 	let emblaApi;
 	let options = { loop: true, align: 'center' };
@@ -69,7 +75,7 @@
 <style>
 	main {
 		width: 100%;
-		padding: 1.5rem 0rem 10rem 0rem;
+		padding: 1.5rem 0 10rem 0;
 		margin: auto;
 	}
 
@@ -189,10 +195,7 @@
 		}
 		.embla__prev,
 		.embla__next {
-			width: 20%;
-			span {
-				opacity: 1;
-			}
+			display: none;
 		}
 	}
 

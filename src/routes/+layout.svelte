@@ -125,10 +125,6 @@
 			align-items: center;
 			gap: 1.5rem;
 
-			.pfp {
-				display: flex;
-			}
-
 			h1 {
 				font-size: 1.375rem;
 				color: var(--txt);
