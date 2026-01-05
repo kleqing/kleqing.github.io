@@ -1,10 +1,51 @@
 <script>
+	import { onMount, onDestroy } from 'svelte';
+	import IconWave from '$lib/icons/IconWave.svelte';
+
+	const colors = [
+		'var(--light-blue)',
+		'var(--light-green)',
+		'var(--red)'
+	];
+
+	let color = colors[0];
+	let timer;
+	let hovering = false;
+
+	function randomColor() {
+		let next;
+		do {
+			next = colors[Math.floor(Math.random() * colors.length)];
+		} while (next === color);
+		color = next;
+	}
+
+	onMount(() => {
+		timer = setInterval(() => {
+			if (!hovering) randomColor();
+		}, 1500);
+	});
+
+	onDestroy(() => {
+		clearInterval(timer);
+	});
 </script>
+
 
 <main>
 	<div class="container">
 		<div class="row">
 			<h1>kleqing</h1>
+			<div
+					class="logo"
+					role="img"
+					aria-label="waving hand icon"
+					style="color: {color}"
+					on:mouseenter={() => (hovering = true)}
+					on:mouseleave={() => (hovering = false)}
+			>
+				<IconWave />
+			</div>
 		</div>
 		<p>hi there! i'm nhan, a se student interested in web dev, gaming, and more.</p>
 		<nav>
@@ -43,12 +84,23 @@
 	.row {
 		display: flex;
 		align-items: center;
-		gap: 1.5rem;
+		gap: 0.5rem;
 	}
 
 	h1 {
 		font-size: 3rem;
 		margin: 0;
+	}
+
+	/* icon container: rely on existing .logo styles if present; add small layout and hover cues */
+	.logo {
+		cursor: default;
+		transition: transform 200ms ease, color 200ms ease;
+		align-items: center;
+	}
+
+	.logo:hover {
+		transform: translateY(-4px);
 	}
 
 	nav {
