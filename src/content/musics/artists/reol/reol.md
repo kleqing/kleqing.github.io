@@ -10,6 +10,8 @@ tracks:
     youtube: "https://www.youtube.com/watch?v=LfephiFN76E"
   - title: "Remote Control"
     youtube: "https://www.youtube.com/watch?v=6177L73_DNY"
+  - title: "Yakusoku no Ao"
+    youtube: "https://www.youtube.com/watch?v=xqQzZaxBWBo"
 published: true
 ---
 

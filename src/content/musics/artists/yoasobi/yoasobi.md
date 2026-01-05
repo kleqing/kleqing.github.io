@@ -18,6 +18,8 @@ tracks:
     youtube: "https://www.youtube.com/watch?v=kzdJkT4kp-A"
   - title: "Biri-Biri"
     youtube: "https://www.youtube.com/watch?v=01x2NNFGtl8"
+  - title: "Ano yume wo nazotte"
+    youtube: "https://www.youtube.com/watch?v=sAuEeM_6zpk"
 published: true
 ---
 
