@@ -42,7 +42,7 @@
 					aria-label={post.name}
 			>
 				<div class="media">
-					<img src={imgSrc(post)} alt={post.name} loading="lazy" />
+					<img src={imgSrc(post)} alt={post.name} loading="lazy" decoding="async"/>
 				</div>
 
 				<div class="overlay" aria-hidden="true">

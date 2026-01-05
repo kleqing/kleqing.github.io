@@ -55,7 +55,7 @@
 					onkeydown={(e) => (e.key === 'Enter' || e.key === ' ') && onTileClick(post.slug)}
 			>
 				<div class="media">
-					<img src={imgSrc(post)} alt={post.title} loading="lazy" />
+					<img src={imgSrc(post)} alt={post.title} loading="lazy" decoding="async"/>
 				</div>
 
 				<div class="overlay" aria-hidden="true">

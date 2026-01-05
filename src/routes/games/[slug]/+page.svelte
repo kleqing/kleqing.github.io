@@ -57,6 +57,7 @@
 						src={data.meta.image}
 						alt={metadata?.name}
 						loading="lazy"
+						decoding="async"
 				/>
 			{:else if data.meta.image?.img?.src}
 				<picture>

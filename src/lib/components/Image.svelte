@@ -1,5 +1,5 @@
 <script>
-	let { image, alt, sizes = '', loading = 'eager' } = $props();
+	let { image, alt, sizes = '', loading = 'lazy', decoding = 'async' } = $props();
 
 	// Check if the image is an external URL
 	const isExternalUrl = $derived(image ? /^https?:\/\//.test(image) : false);
@@ -35,11 +35,11 @@
 </script>
 
 {#if isExternalUrl}
-	<img src={image} {alt} {loading} {sizes} onload={(e) => (e.target.style.opacity = 1)} />
+	<img src={image} {alt} {loading} {sizes} {decoding} onload={(e) => (e.target.style.opacity = 1)} />
 {:else if isGif}
 	{#await importImage(image) then src}
 		{#if src}
-			<img {src} {alt} {loading} onload={(e) => (e.target.style.opacity = 1)} />
+			<img {src} {alt} {loading} {decoding} onload={(e) => (e.target.style.opacity = 1)} />
 		{/if}
 	{/await}
 {:else if image}
@@ -52,6 +52,7 @@
 					src={src.img.src}
 					{alt}
 					{loading}
+					{decoding}
 					width={src.img.w}
 					height={src.img.h}
 					onload={(e) => (e.target.style.opacity = 1)}

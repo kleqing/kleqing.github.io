@@ -20,6 +20,8 @@
 					alt={post.description}
 					sizes="(min-width: 1200px) 50vw, 100vw"
 					--aspect-ratio="16/9"
+					loading="lazy"
+					decoding="async"
 				/>
 				<h2>{post.name}<span class="arrow">-></span></h2>
 				<div class="description">{post.description}</div>
