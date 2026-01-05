@@ -193,11 +193,8 @@
 	}
 
 	.image-frame {
-		border: 1px solid var(--bg-3);
 		border-radius: 10px;
 		overflow: hidden;
-		background: var(--bg-2);
-
 		box-shadow: 0 4px 20px rgba(0,0,0,0.15);
 		transition: transform 0.25s ease, box-shadow 0.25s ease;
 	}
