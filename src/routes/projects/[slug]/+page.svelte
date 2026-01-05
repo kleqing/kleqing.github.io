@@ -60,7 +60,9 @@
 		<div class="embla__container" class:loop>
 			{#each metadata.images as image}
 				<div class="embla__slide" class:tall={metadata.aspect_ratio === 'tall'}>
-					<Image {image} alt={metadata.description} sizes="(min-width: 800px) 80vw, 100vw" />
+					<div class="image-frame">
+						<Image {image} alt={metadata.description} sizes="(min-width: 800px) 80vw, 100vw" />
+					</div>
 				</div>
 			{/each}
 		</div>
@@ -150,6 +152,7 @@
 			max-width: 25rem;
 		}
 	}
+
 	.embla__prev,
 	.embla__next {
 		position: absolute;
@@ -178,11 +181,30 @@
 			transform: scale(1.2);
 		}
 	}
+
 	.embla__next {
 		right: 0;
+		display: none;
 	}
+
 	.embla__prev {
 		left: 0;
+		display: none;
+	}
+
+	.image-frame {
+		border: 1px solid var(--bg-3);
+		border-radius: 10px;
+		overflow: hidden;
+		background: var(--bg-2);
+
+		box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+		transition: transform 0.25s ease, box-shadow 0.25s ease;
+	}
+
+	.image-frame:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 8px 28px rgba(0,0,0,0.25);
 	}
 
 	@media (max-width: 850px) {
