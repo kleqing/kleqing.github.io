@@ -13,7 +13,7 @@
 
 <div class="card" role="button" tabindex="0" onclick={() => onClick(artist)} onkeydown={handleKey} aria-label={`Open ${artist.title}`}>
 	<div class="avatar">
-		<Image image={artist.image} alt={artist.title} loading="lazy"/>
+		<Image image={artist.image} alt={artist.title}/>
 	</div>
 	<div class="name">{artist.title}</div>
 </div>
