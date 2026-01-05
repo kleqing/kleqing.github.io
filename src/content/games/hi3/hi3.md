@@ -5,7 +5,7 @@ icon: 'game'
 description: Honkai Impact 3rd is a 2016 free-to-play 3D science fantasy action role-playing game developed and published by miHoYo.
 date: 2016-10-14
 playedDate: 2022-01-10
-thumb: 'hi3.jpeg'
+thumb: 'hi3.webp'
 gameId: '23436806'
 gameUserName: 'kleqing'
 link: 'https://honkaiimpact3.hoyoverse.com/'

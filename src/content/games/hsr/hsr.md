@@ -5,7 +5,7 @@ icon: 'game'
 description: 'Honkai: Star Rail is a 2023 free-to-play role-playing gacha video game developed and published by miHoYo.'
 date: 2023-04-26
 playedDate: 2023-04-26
-thumb: 'hsr.jpg'
+thumb: 'hsr.webp'
 gameId: '800884451'
 gameUserName: 'Stelle'
 link: 'https://hsr.hoyoverse.com/en-us/'
