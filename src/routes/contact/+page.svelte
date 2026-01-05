@@ -7,6 +7,7 @@
 	let status = $state('submit ->');
 	let emailCopied = $state(false);
 	let facebookCopied = $state(false);
+	let apiKey = import.meta.env.VITE_WEB3_FORM_API_KEY;
 
 	const handleSubmit = async (data) => {
 		data.preventDefault();
@@ -14,7 +15,7 @@
 		status = 'submitting...';
 		const formData = new FormData(data.currentTarget);
 		const object = Object.fromEntries(formData);
-		object.access_key = '';
+		object.access_key = apiKey;
 		const json = JSON.stringify(object);
 
 		const response = await fetch('https://api.web3forms.com/submit', {
