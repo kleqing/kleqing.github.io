@@ -4,7 +4,7 @@ name: collapse (contributor)
 description: an advanced launcher for miHoYo/HoYoverse games run on windows
 thumbnail: collapse.png
 images: [collapse.png]
-website: collapselauncher.com
+website: https://collapselauncher.com
 github: https://github.com/CollapseLauncher/Collapse
 date: 2023-04-23
 ---

@@ -1,7 +1,7 @@
 ﻿---
 title: "xi"
 year: 2007 - present
-image: "xi.jpg"
+image: "xi.png"
 description: "xi is a legendary Japanese music artist. He is primarily known for the Artcore genre, which combines high-tempo electronic beats with intricate, rapid piano melodies."
 tracks:
   - title: "Blue Zenith"
