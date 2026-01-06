@@ -1,7 +1,7 @@
 ﻿---
 title: "TheFatRat"
 year: 2011 - present
-image: "thefatrat.png"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767708148/thefatrat_vaxazl.png"
 description: "Christian Friedrich Johannes Büttner, known professionally as TheFatRat, is a German DJ, record producer and musician. His genre is often described as \"glitch-hop.\" His 2016 extended play Jackpot reached 23 on the Billboard Dance/Electronic Albums chart."
 tracks:
   - title: "Fly Away"

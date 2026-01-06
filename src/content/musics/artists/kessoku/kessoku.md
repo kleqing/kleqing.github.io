@@ -1,7 +1,7 @@
 ﻿---
 title: "Kessoku Band"
 year: 2022 - present
-image: "kessoku.jpg"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767707927/kessoku_hw8xse.jpg"
 description: "Kessoku Band is a fictional rock band in the anime television series Bocchi the Rock!, consisting of lead guitarist Hitori Gotō (voiced by Yoshino Aoyama), drummer and leader Nijika Ijichi (voiced by Sayumi Suzushiro), bassist Ryō Yamada (voiced by Saku Mizuno), and guitarist and vocalist Ikuyo Kita (voiced by Ikumi Hasegawa)"
 tracks:
   - title: "Guitar, Loneliness and Blue Planet"

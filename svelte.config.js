@@ -43,7 +43,7 @@ const config = {
 		paths: {
 			relative: false
 		},
-		inlineStyleThreshold: Infinity
+		inlineStyleThreshold: 0
 	}
 };
 

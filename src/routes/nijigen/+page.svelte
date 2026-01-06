@@ -3,15 +3,6 @@
 
 	let { data } = $props();
 
-	// helper to construct image URL from post metadata
-	function imgSrc(post) {
-		const file = post.thumbnail || post.cover || post.image;
-		if (file) {
-			return `/src/content/nijigen/${post.slug}/${file}`;
-		}
-		return '/images/placeholder-game.png';
-	}
-
 	//* Add preview hover effect on touch devices */
 	let activeSlug = $state(null);
 
@@ -55,7 +46,7 @@
 					onkeydown={(e) => (e.key === 'Enter' || e.key === ' ') && onTileClick(post.slug)}
 			>
 				<div class="media">
-					<img src={imgSrc(post)} alt={post.title} loading="lazy" decoding="async"/>
+					<img src={post.thumbnail} alt={post.title} loading="lazy" decoding="async" />
 				</div>
 
 				<div class="overlay" aria-hidden="true">

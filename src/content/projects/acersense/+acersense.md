@@ -2,8 +2,8 @@
 published: true
 name: acersense
 description: a linux GUI for acer laptops using Linuwu drivers
-thumbnail: acersense.png
-images: [acersense.png]
+thumbnail: https://res.cloudinary.com/dwgjleqne/image/upload/v1767710136/acersense_modzzr.png
+images: [https://res.cloudinary.com/dwgjleqne/image/upload/v1767710136/acersense_modzzr.png]
 github: https://github.com/kleqing/AcerSense
 date: 2025-10-14
 ---

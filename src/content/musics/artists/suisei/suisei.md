@@ -1,7 +1,7 @@
 ﻿---
 title: "Hoshimachi Suisei"
 year: 2018 - 2025
-image: "suisei.png"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767708134/suisei_xs8lst.png"
 description: "Hoshimachi Suisei is a Japanese singer and virtual YouTuber. She began posting videos as an independent creator in March 2018. In May 2019, she became affiliated with Hololive Production through their newly created music label, INoNaKa Music, before joining the agency's main branch later the same year."
 tracks:
   - title: "BIBBIDIBA"

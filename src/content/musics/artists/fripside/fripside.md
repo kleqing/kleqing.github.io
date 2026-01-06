@@ -1,7 +1,7 @@
 ﻿---
 title: "fripSide"
 year: 2002 - 2023
-image: "fripSide.jpg"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767707853/fripSide_s8w03i.jpg"
 description: "fripSide is a Japanese pop and trance duo originally formed by composer Satoshi Yaginuma and singer Nao in February 2002."
 tracks:
   - title: "only my railgun"

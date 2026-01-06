@@ -1,7 +1,7 @@
 ﻿---
 title: "TOGENASHI TOGEARI"
 year: 2023 - present
-image: "togetoge.jpg"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767708174/togetoge_fxyzpe.jpg"
 description: "Togenashi Togeari (トゲナシトゲアリ) is a five-member all-girl rock band central to the multimedia project and 2024 anime series Girls Band Cry. Uniquely, the band exists both as animated characters and as a real-life performing unit."
 tracks:
   - title: "I'm here"

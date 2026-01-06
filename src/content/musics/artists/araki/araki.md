@@ -1,7 +1,7 @@
 ﻿---
 title: "Araki"
 year: 2013 - present
-image: "araki.png"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767707805/araki_ofjmmp.png"
 description: "Araki (あらき) is a male utaite with a strong, clear chest voice that can easily hit high notes. He is also capable of doing harmonies and often screams in his covers."
 tracks:
   - title: "Teo"

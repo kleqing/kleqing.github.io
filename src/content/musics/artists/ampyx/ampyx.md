@@ -1,7 +1,7 @@
 ﻿---
 title: "Ampyx"
 year: 2015 - present
-image: "ampyx.jpg"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767707794/ampyx_lbukvf.jpg"
 description: "Ampyx is a prominent EDM producer and artist based in San Diego, California. His music is characterized by infectious beats, soaring melodies, and high-energy basslines that often blend electronic and dance genres."
 tracks:
   - title: "Holo"

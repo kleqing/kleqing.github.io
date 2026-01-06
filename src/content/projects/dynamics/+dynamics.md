@@ -2,8 +2,8 @@
 published: true
 name: dynamics
 description: a platform for calling for charity and support in managing charitable organizations
-thumbnail: dynamics.png
-images: [dynamics.png]
+thumbnail: https://res.cloudinary.com/dwgjleqne/image/upload/v1767710399/dynamics_fo1qiq.png
+images: [https://res.cloudinary.com/dwgjleqne/image/upload/v1767710399/dynamics_fo1qiq.png]
 github: https://github.com/kleqing/Dynamics
 date: 2024-11-09
 ---

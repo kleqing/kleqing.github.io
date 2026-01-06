@@ -1,7 +1,7 @@
 ﻿---
 title: "PIKASONIC"
 year: 2017 - present
-image: "pikasonic.jpg"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767707989/pikasonic_xbqber.jpg"
 description: "PIKASONIC is a Japanese electronic musician who blends trap and future bass to create a unique and emotive sound. Their music is known for its intricate beats, heavy synthesizer use, and rich layering of sounds and textures. PIKASONIC's tracks range from upbeat dance tunes to more introspective pieces. Some of their popular releases include Mind Enhancement (2025), Replay (2024), Asuka (2018), and Hazy Moon Night (2023). "
 tracks:
   - title: "Hazy Moon Night"

@@ -1,7 +1,7 @@
 ﻿---
 title: "Xomu"
 year: 2017 - present
-image: "xomu.jpg"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767708231/xomu_shizzu.jpg"
 description: "Xomu (often stylized as XOMU) is an electronic dance music (EDM) artist and producer based in Sydney, Australia. The artist is known for crafting energetic tracks with vibrant beats and engaging melodies that have established a significant presence in the electronic music community. "
 tracks:
   - title: "Tera"

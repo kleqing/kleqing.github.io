@@ -2,8 +2,8 @@
 published: true
 name: battleship
 description: a small battleship game made with typescript and c#
-thumbnail: battleship.png
-images: [battleship.png]
+thumbnail: https://res.cloudinary.com/dwgjleqne/image/upload/v1767710317/battleship_lz0aep.png
+images: [https://res.cloudinary.com/dwgjleqne/image/upload/v1767710317/battleship_lz0aep.png]
 github: https://github.com/kleqing/BattleShip
 date: 2025-10-18
 ---

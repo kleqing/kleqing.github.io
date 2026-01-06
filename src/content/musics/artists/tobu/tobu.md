@@ -1,7 +1,7 @@
 ﻿---
 title: "Tobu"
 year: 2010 - present
-image: "tobu.png"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767708165/tobu_oftg8k.png"
 description: "Tobu (stylized as 7obu) is the stage name of Toms Burkovskis, a prominent Latvian electronic music producer and DJ born on September 10, 1992. Known for his bright, uplifting, and melodic sound, he is a self-taught musician who became one of the most recognized figures in the \"No Copyright Music\" scene."
 tracks:
   - title: "Cloud 9"

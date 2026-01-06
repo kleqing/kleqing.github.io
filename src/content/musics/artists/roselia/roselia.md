@@ -1,7 +1,7 @@
 ﻿---
 title: "Roselia"
 year: 2016 - present
-image: "roselia.png"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767708117/roselia_oig15m.png"
 description: "Roselia is an all-girl band in the BanG Dream! franchise. The group consists of five members, namely Yukina Minato (CV: Aina Aiba) on vocals, Sayo Hikawa (CV: Haruka Kudo) on guitar, Ako Udagawa (CV: Megu Sakuragawa) on drums, Rinko Shirokane (CV: Kanon Shizaki) on the keyboard, and Lisa Imai (CV: Yuki Nakashima) on bass."
 tracks:
   - title: "LOUDER"

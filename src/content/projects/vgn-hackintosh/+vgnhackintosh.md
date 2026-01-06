@@ -2,8 +2,8 @@
 published: true
 name: vaio vgn hackintosh
 description: a legacy hackintosh on sony vaio vgn-ns240e
-thumbnail: vgnhackintosh.png
-images: [vgnhackintosh.png]
+thumbnail: https://res.cloudinary.com/dwgjleqne/image/upload/v1767710584/vgnhackintosh_kisszm.png
+images: [https://res.cloudinary.com/dwgjleqne/image/upload/v1767710584/vgnhackintosh_kisszm.png]
 github: https://github.com/kleqing/Vaio-VGN-NS240E-Hackintosh
 date: 2021-08-30
 ---

@@ -1,7 +1,7 @@
 ﻿---
 title: "Panda Eyes"
 year: 2013 - present
-image: "pandaeyes.jpg"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767707981/pandaeyes_smyutp.jpg"
 description: "Oskar Gabriel Steinbeck, known by his stage name Panda Eyes or Lil Panda X, is a Swiss DJ and record producer."
 tracks:
   - title: "Highscore"

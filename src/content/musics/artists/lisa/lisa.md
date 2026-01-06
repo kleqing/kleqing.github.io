@@ -1,7 +1,7 @@
 ﻿---
 title: "LiSA"
 year: 2010 - present
-image: "lisa.jpg"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767707942/lisa_tvuwhn.jpg"
 description: "Risa Oribe, known professionally as Lisa, is a Japanese singer and songwriter from Seki, Gifu, signed to Sacra Music under Sony Music Artists. After aspiring to become a musician early in life, she started her musical career as the vocalist of the indie band Chucky."
 tracks:
   - title: "ADAMAS"

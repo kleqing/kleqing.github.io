@@ -1,7 +1,7 @@
 ﻿---
 title: "HoYo-MiX"
 year: 2011 - present
-image: "hoyomix.jpg"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767707910/hoyomix_ncyc30.jpg"
 description: "HOYO-MiX is a musical group and music studio under miHoYo, primarily responsible for producing songs and soundtracks for various miHoYo games, including the Honkai series, Tears of Themis, and Genshin Impact. The studio is headed by Cai Jinhan, miHoYo's music director."
 tracks:
   - title: "Proi Proi"

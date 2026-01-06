@@ -2,8 +2,8 @@
 published: true
 name: hoyobar
 description: a real-time tracking your Genshin Impact account status into your macOS menubar
-thumbnail: hoyobar.png
-images: [hoyobar.png]
+thumbnail: https://res.cloudinary.com/dwgjleqne/image/upload/v1767710524/hoyobar_cmk19o.png
+images: [https://res.cloudinary.com/dwgjleqne/image/upload/v1767710524/hoyobar_cmk19o.png]
 github: https://github.com/kleqing/HoyoBar
 date: 2023-05-05
 ---

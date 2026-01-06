@@ -5,7 +5,7 @@ icon: 'game'
 description: Genshin Impact is a 2020 action role-playing game produced by miHoYo.
 date: 2020-09-28
 playedDate: 2021-05-31
-thumb: 'gi.jpg'
+thumb: 'https://res.cloudinary.com/dwgjleqne/image/upload/v1767707208/gi_axdglv.jpg'
 gameId: '831960898'
 gameUserName: 'Lumine'
 link: 'https://genshin.hoyoverse.com/en/'

@@ -2,7 +2,7 @@
 title: "Trinity Seven"
 releaseYear: 2014
 description: "One day, the bright red sun stopped shining, causing the \"Breakdown Phenomenon\"—the destruction of Arata Kasuga's town and the disappearance of the people inhabiting it. All, however, is not yet lost; by utilizing the magical grimoire given to him by his childhood friend and cousin Hijiri Kasuga, Arata's world gets artificially reconstructed. In order to investigate the phenomenon, Lilith Asami appears before Arata, whose artificial world suddenly disintegrates. He is given two choices: hand over the book, or die. However, Arata chooses the third option—enrolling in the top-secret magic school Royal Biblia Academy, where six other magical users await him. Together with Lilith, these six form the Trinity Seven, the elite of the school who each bolster their own power and skill."
-thumbnail: trinityseven.png
+thumbnail: https://res.cloudinary.com/dwgjleqne/image/upload/v1767711120/trinityseven_b2kvmz.png
 authors: "Kenji Saitō"
 ---
 

@@ -2,8 +2,8 @@
 published: true
 name: vaio svf14f hackintosh
 description: hackintosh on sony vaio svf14f series (svf14217sgw)
-thumbnail: svfhackintosh.jpg
-images: [svfhackintosh.jpg]
+thumbnail: https://res.cloudinary.com/dwgjleqne/image/upload/v1767710555/svfhackintosh_dqvfwh.jpg
+images: [https://res.cloudinary.com/dwgjleqne/image/upload/v1767710555/svfhackintosh_dqvfwh.jpg]
 github: https://github.com/kleqing/VAIO-SVF14217SGW-Hackintosh
 date: 2023-08-01
 ---

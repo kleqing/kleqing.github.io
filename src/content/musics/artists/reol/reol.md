@@ -1,7 +1,7 @@
 ﻿---
 title: "Reol"
 year: 2012 - present
-image: "reol.jpg"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767708095/reol_kfrwrl.jpg"
 description: "Reol is a Japanese singer, songwriter, and record producer. She began creating and releasing music onto Nico Nico Douga and YouTube in 2012, achieving recognition for writing and performing viral Vocaloid songs. She released the album Gokusaishiki independently, which reached the top ten on the Oricon Albums Chart."
 tracks:
   - title: "MONSTER"

@@ -2,8 +2,8 @@
 published: true
 name: blue archive
 description: a small blue archive homepage using vue js
-thumbnail: bahome.png
-images: [bahome.png]
+thumbnail: https://res.cloudinary.com/dwgjleqne/image/upload/v1767710217/bahome_k3azrz.png
+images: [https://res.cloudinary.com/dwgjleqne/image/upload/v1767710217/bahome_k3azrz.png]
 website: https://kleqing-ba.vercel.app
 github: https://github.com/kleqing/ba-page
 date: 2025-04-26

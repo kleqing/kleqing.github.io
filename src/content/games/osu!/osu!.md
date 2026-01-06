@@ -5,7 +5,7 @@ icon: 'keyboard'
 description: 'Osu! is a freeware rhythm game originally created and self-published by Australian developer Dean Herbert.'
 date: 2007-09-16
 playedDate: 2021-10-26
-thumb: 'osu!.png'
+thumb: 'https://res.cloudinary.com/dwgjleqne/image/upload/v1767707262/osu_ibo15x.png'
 gameId: '26794597'
 gameUserName: 'kleqing'
 link: 'https://osu.ppy.sh/'

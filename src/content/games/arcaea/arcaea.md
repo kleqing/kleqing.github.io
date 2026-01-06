@@ -5,7 +5,7 @@ icon: 'game'
 description: Arcaea is a rhythm video game developed and published by the British company Lowiro.
 date: 2017-03-09
 playedDate: 2024-07-27
-thumb: 'arcaea.png'
+thumb: 'https://res.cloudinary.com/dwgjleqne/image/upload/v1767695958/arcaea_c79jwm.png'
 gameId: '193 498 731'
 gameUserName: 'kleqing'
 link: 'https://arcaea.lowiro.com/en'

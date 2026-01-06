@@ -1,7 +1,7 @@
 ﻿---
 title: "UNDEAD CORPORATION"
 year: 2010 - present
-image: "undead.jpg"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767708192/undead_skahda.jpg"
 description: "Undead Corporation is a Japanese extreme metal and doujin band formed in Tokyo in 2010. They combine different styles and elements of extreme metal."
 tracks:
   - title: "Everything will freeze"

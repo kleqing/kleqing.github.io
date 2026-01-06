@@ -2,8 +2,8 @@
 published: true
 name: tap
 description: press space to jump!
-thumbnail: tapgame.png
-images: [tapgame.png]
+thumbnail: https://res.cloudinary.com/dwgjleqne/image/upload/v1767710563/tapgame_d8yjco.png
+images: [https://res.cloudinary.com/dwgjleqne/image/upload/v1767710563/tapgame_d8yjco.png]
 website: https://kleqing.github.io/Tap
 github: https://github.com/kleqing/Tap
 date: 2025-05-18

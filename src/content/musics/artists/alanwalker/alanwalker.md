@@ -1,7 +1,7 @@
 ﻿---
 title: "Alan Walker"
 year: 2013 - present
-image: "alanwalker.png"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767707788/alanwalker_ydx32w.png"
 description: "Alan Olav Walker is a Norwegian DJ and record producer. His songs \"Faded\", \"Sing Me to Sleep\", \"Alone\", \"All Falls Down\", \"Ignite\", and \"Darkside\" have each been multi-platinum-certified and reached number 1 on the VG-lista chart in Norway."
 tracks:
   - title: "Fade"

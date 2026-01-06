@@ -1,7 +1,7 @@
 ﻿---
 title: "The Oral Cigarettes"
 year: 2010 - present
-image: "theoralcigarettes.jpg"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767708152/theoralcigarettes_kvz9rn.jpg"
 description: "The Oral Cigarettes, stylized in all caps is a four-member Japanese alternative rock band from Nara Prefecture, formed in 2010. The band signed to A-Sketch in 2012 and have released five studio albums, two independent albums, one demo album, one compilation album, three extended plays and nine singles."
 tracks:
   - title: "ReI"

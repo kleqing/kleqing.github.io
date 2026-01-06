@@ -2,8 +2,8 @@
 published: true
 name: always on top
 description: a simple tool to keep windows always on top
-thumbnail: aot.png
-images: [aot.png]
+thumbnail: https://res.cloudinary.com/dwgjleqne/image/upload/v1767710143/aot_jbzk2x.png
+images: [https://res.cloudinary.com/dwgjleqne/image/upload/v1767710143/aot_jbzk2x.png]
 github: https://github.com/kleqing/Always-on-top
 date: 2023-01-06
 ---

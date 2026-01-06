@@ -1,7 +1,7 @@
 ﻿---
 title: "Sweet Arms"
 year: 2012 - present
-image: "sweetarms.jpg"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767708140/sweetarms_fjjojq.jpg"
 description: "Sweet Arms (stylized as sweet ARMS) is a Japanese voice actor unit that consists of four members. They are affiliated with Kami Records and Nippon Columbia."
 tracks:
   - title: "I swear"

@@ -1,7 +1,7 @@
 ﻿---
 title: "Hinkik"
 year: 2011
-image: "hinkik.jpg"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767707892/hinkik_ihwzh6.jpg"
 description: "Hinkik is a Swedish-Japanese electronic music producer and songwriter. Born in Tokyo in 1998 and based in Uppsala, Sweden, he gained significant fame in the mid-2010s for his melodic EDM tracks."
 tracks:
   - title: "Blade"

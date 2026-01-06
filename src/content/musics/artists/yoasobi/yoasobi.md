@@ -1,7 +1,7 @@
 ﻿---
 title: "YOASOBI"
 year: 2019 - present
-image: "yoasobi.jpg"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767708235/yoasobi_gi6xb1.jpg"
 description: "Yoasobi is a Japanese musical duo formed in 2019. It consists of songwriter and producer Ayase and vocalist Lilas Ikuta, under the moniker Ikura. Represented by the slogan \"novel into music\", the duo's narrative-driven songs are originally based on selected fictional stories posted on Monogatary.com, a social media for creative writing and illustration operated by Sony Music Entertainment Japan. Later, sources also come from various media, such as fiction written by professional authors, books, letters, messages, plays, and social media posts. Known for fast pace and complex structure, their music has been characterized as a blend of J-pop and Vocaloid music."
 tracks:
   - title: "Idol"

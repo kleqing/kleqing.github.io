@@ -2,8 +2,8 @@
 published: true
 name: yaagl (contributor)
 description: yet another anime game launcher. Run hoyoverse's game on macOS
-thumbnail: yaagl.png
-images: [yaagl.png]
+thumbnail: https://res.cloudinary.com/dwgjleqne/image/upload/v1767710627/yaagl_bnurdk.png
+images: [https://res.cloudinary.com/dwgjleqne/image/upload/v1767710627/yaagl_bnurdk.png]
 github: https://github.com/yaagl/yet-another-anime-game-launcher
 date: 2023-04-02
 ---

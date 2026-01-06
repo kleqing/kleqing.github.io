@@ -1,7 +1,7 @@
 ﻿---
 title: "Hatsune Miku"
 year: 2007 - present
-image: "miku.png"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767707953/miku_iqftvs.png"
 description: "Hatsune Miku, officially code-named CV01, is a Vocaloid software voicebank developed by Crypton Future Media. Its official mascot is depicted as a sixteen-year-old girl with long, turquoise twintails."
 tracks:
   - title: "Hazy Moon"

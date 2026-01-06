@@ -1,7 +1,7 @@
 ﻿---
 title: "Gawr Gura"
 year: 2020 - 2025
-image: "gawrgura.png"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767707870/gawrgura_gcwrqa.png"
 description: "Gawr Gura is a retired English-speaking Virtual YouTuber (VTuber) formerly affiliated with hololive English as a member of its first generation, \"-Myth-\"."
 tracks:
   - title: "REFLECT"

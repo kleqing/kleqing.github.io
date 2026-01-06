@@ -3,15 +3,6 @@
 
 	let { data } = $props();
 
-	// helper to construct image URL from post metadata
-	function imgSrc(post) {
-		const file = post.thumb || post.image || post.cover;
-		if (file) {
-			return `/src/content/games/${post.slug}/${file}`;
-		}
-		return '/images/placeholder-game.png';
-	}
-
 	//* Add preview hover effect on touch devices */
 	let activeSlug = $state(null);
 
@@ -42,7 +33,7 @@
 					aria-label={post.name}
 			>
 				<div class="media">
-					<img src={imgSrc(post)} alt={post.name} loading="lazy" decoding="async"/>
+					<img src={post.thumb} alt={post.name} loading="lazy" decoding="async"/>
 				</div>
 
 				<div class="overlay" aria-hidden="true">

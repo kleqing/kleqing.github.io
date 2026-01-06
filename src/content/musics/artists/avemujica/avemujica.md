@@ -1,7 +1,7 @@
 ﻿---
 title: "Ave Mujica"
 year: 2023 - present
-image: "avemujica.png"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767707819/avemujica_eyusmg.png"
 description: "Ave Mujica is a band in the BanG Dream! franchise. The group consists of five members, namely Doloris (Real Name Misumi Uika, CV: Sasaki Rico) on guitar and vocals, Mortis (Real Name Wakaba Mutsumi, CV: Watase Yuzuki) on guitar, Timoris (Real Name Yahata Umiri, CV: Okada Mei) on bass, Amoris (Real Name Yutenji Nyamu, CV: Yonezawa Akane) on drums, and Oblivionis (Real Name Togawa Sakiko, CV: Takao Kanon)  on keyboard."
 tracks:
   - title: "KiLLKiSS"

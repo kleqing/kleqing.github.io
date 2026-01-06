@@ -35,12 +35,12 @@
 </script>
 
 {#if open && artist}
-	<div class="backdrop" in:fade={{ duration: 150 }} out:fade={{ duration: 120 }} onclick={(e) => { if (e.target === e.currentTarget) close(); }} aria-hidden={!open}>
+	<div class="backdrop" in:fade={{ duration: 110 }} out:fade={{ duration: 150 }} onclick={(e) => { if (e.target === e.currentTarget) close(); }} aria-hidden={!open}>
 		<div class="modal" role="dialog" aria-modal="true" aria-labelledby="artist-title" tabindex="0" in:scale={{ start: 0.92, duration: 220, easing: quintOut }} out:scale={{ start: 1, end: 0.96, duration: 150 }}>
 			<div class="content">
 				<div class="left">
 					<div class="image-wrap">
-						<Image image={artist.image} alt={artist.title} sizes="(max-width:600px) 80vw, 300px" />
+						<Image image={artist.image} alt={artist.title} sizes="(max-width:600px) 80vw, 300px" loading="lazy" decoding="async" />
 					</div>
 				</div>
 				<div class="right">
@@ -66,7 +66,7 @@
 	.backdrop {
 		position: fixed;
 		inset: 0;
-		background: rgba(0,0,0,0.6);
+		background: rgba(0,0,0,0.5);
 		display: flex;
 		align-items: center;
 		justify-content: center;

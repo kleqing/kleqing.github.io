@@ -1,7 +1,7 @@
 ﻿---
 title: "Vivid Lila"
 year: 2020 - present
-image: "vividlila.png"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767708213/vividlila_vq7nos.png"
 description: "Vivid Lila is a Japanese music project and composer active primarily in the indie and \"doujin\" music scenes, known for a style that blends emotional J-pop, rock, and electronic elements."
 tracks:
   - title: "To us like the horizon"

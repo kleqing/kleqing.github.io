@@ -2,8 +2,8 @@
 published: true
 name: hextech
 description: a shopping website for phones and tablets
-thumbnail: hextech.png
-images: [hextech.png]
+thumbnail: https://res.cloudinary.com/dwgjleqne/image/upload/v1767710430/hextech_kvccnh.png
+images: [https://res.cloudinary.com/dwgjleqne/image/upload/v1767710430/hextech_kvccnh.png]
 github: https://github.com/kleqing/HexTech
 date: 2024-07-16
 ---

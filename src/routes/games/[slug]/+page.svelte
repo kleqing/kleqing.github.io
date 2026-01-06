@@ -49,49 +49,15 @@
 		{/if}
 	</p>
 
-	{#if data?.meta?.image}
+	{#if metadata?.thumb}
 		<div class="thumb-wrap">
-			{#if typeof data.meta.image === 'string'}
-				<img
-						class="thumb"
-						src={data.meta.image}
-						alt={metadata?.name}
-						loading="lazy"
-						decoding="async"
-				/>
-			{:else if data.meta.image?.img?.src}
-				<picture>
-					{#if data.meta.image?.sources?.avif}
-						<source
-								srcset={data.meta.image.sources.avif}
-								type="image/avif"
-								sizes="(min-width: 1200px) 53rem, 100vw"
-						/>
-					{/if}
-					{#if data.meta.image?.sources?.webp}
-						<source
-								srcset={data.meta.image.sources.webp}
-								type="image/webp"
-								sizes="(min-width: 1200px) 53rem, 100vw"
-						/>
-					{/if}
-					<img
-							class="thumb"
-							src={data.meta.image.img.src}
-							alt={metadata?.name}
-							loading="lazy"
-							width={data.meta.image.img.w}
-							height={data.meta.image.img.h}
-					/>
-				</picture>
-			{:else}
-				<img
-						class="thumb"
-						src={data.meta.image}
-						alt={metadata?.name}
-						loading="lazy"
-				/>
-			{/if}
+			<img
+					class="thumb"
+					src={metadata.thumb}
+					alt={metadata?.name}
+					loading="lazy"
+					decoding="async"
+			/>
 		</div>
 	{/if}
 

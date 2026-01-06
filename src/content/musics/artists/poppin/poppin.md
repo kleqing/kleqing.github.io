@@ -1,7 +1,7 @@
 ﻿---
 title: "Poppin'Party"
 year: 2015 - present
-image: "poppin.png"
+image: "https://res.cloudinary.com/dwgjleqne/image/upload/v1767708036/poppin_bzddsk.png"
 description: "A girl band always searching for that sparkling, heart-pounding beat, based on Kasumi's (Gt. & Vo.) childhood observation of the stars shining in the night sky. The other four members are music-lover Tae (Gt.), shy but confident girl Rimi (Ba.), kind and family-oriented Saaya (Dr.), and constant contrarian Arisa (Key.). They have band practice in Arisa's basement, and what they lack in skill and experience, they more than make up for in gusto."
 tracks:
   - title: "Returns"
