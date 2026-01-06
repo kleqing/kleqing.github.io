@@ -1,9 +1,7 @@
 import { getPosts } from '$lib/js/posts.js';
 
-export const prerender = true;
-
 export async function load() {
-	const modules = import.meta.glob('/src/content/nijigen/*/*.md');
+	const modules = import.meta.glob('/src/content/nijigen/**/*.md');
 	let posts = await getPosts(modules);
 
 	// //* Sort by name
