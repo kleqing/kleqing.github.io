@@ -40,7 +40,6 @@ const config = {
 		adapter: adapter({
 			fallback: '404.html'
 		}),
-		trailingSlash: 'always',
 		paths: {
 			relative: false
 		},
