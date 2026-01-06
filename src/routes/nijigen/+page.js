@@ -1,5 +1,7 @@
 import { getPosts } from '$lib/js/posts.js';
 
+export const prerender = true;
+
 export async function load() {
 	const modules = import.meta.glob('/src/content/nijigen/*/*.md');
 	let posts = await getPosts(modules);
@@ -15,7 +17,7 @@ export async function load() {
 		posts,
 		meta: {
 			title: 'nijigen',
-			description: 'a collection of nijigen (2D) related articles and posts.',
+			description: 'a collection of nijigen (2D)',
 		}
 	};
 }
