@@ -14,8 +14,11 @@ export async function getPosts(modules) {
 
 	let posts = await Promise.all(postPromises);
 
+	// In production we only want to *exclude* items that are explicitly unpublished.
+	// Previously this filtered to only include posts with a truthy `published` flag,
+	// which caused folders without `published` frontmatter to be dropped on deploy.
 	if (!dev) {
-		posts = posts.filter((post) => post.published);
+		posts = posts.filter((post) => post.published !== false);
 	}
 
 	return posts;
